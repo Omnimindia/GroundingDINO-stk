@@ -94,7 +94,7 @@ bash install.sh
 ## Authors/Contributors :writing_hand: :pray::skin-tone-2:
 
 - [Samir Singh](https://github.com/Facadedevil)
-- [Timothius Victorio Yasin](https://github.com/)
+- [Timothius Victorio](https://github.com/xard40)
 - [Yichen Kao](https://github.com/fireblue95)
 
 ## Acknowledgements :raised_hands:
