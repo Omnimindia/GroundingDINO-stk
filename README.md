@@ -11,7 +11,7 @@ This document contains all the information you need to get started, including:
 
 ## Prerequisites
 
-The project requires CUDA version 10.2 or later. CUDA is a parallel computing platform and application programming interface (API) model created by Nvidia. It allows software developers and software engineers to use a CUDA-enabled graphics processing unit (GPU) for general-purpose processing.
+The project requires `CUDA` version 10.2 or later. `CUDA` is a parallel computing platform and application programming interface (API) model created by Nvidia. It allows software developers and software engineers to use a CUDA-enabled graphics processing unit (GPU) for general-purpose processing.
 
 ## Support List
 
@@ -21,7 +21,7 @@ The following table lists the versions of `torch`, `torchvision`, and `Python` t
 
 ### We support the following versions.
 
-* Currently, PyTorch only supported the latest version of Cuda is 11.8.
+* Currently, `PyTorch` only supported the latest version of `Cuda` is 11.8.
 
 | `torch`            | `torchvision`      | `Python`                  | `CUDA` | `11.8` | `11.7` | `11.6` | `11.3` | `10.2` | 
 | ------------------ | ------------------ | ------------------------- | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -99,7 +99,7 @@ bash install.sh
 
 ## Acknowledgements :raised_hands:
 
-This project is based on Grounding DINO, adding support for various CUDA, PyTorch, torch, and Python versions compatibility.
+This project is based on `GroundingDINO`, adding support for various `CUDA`, `PyTorch`, and `Python` versions compatibility.
 
 ```
 https://github.com/IDEA-Research/GroundingDINO
