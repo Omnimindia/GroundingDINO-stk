@@ -109,8 +109,8 @@ https://github.com/IDEA-Research/GroundingDINO
 
 <br/><br/>
 
-
-## MIT License
+## Licence
+### MIT License
 
 ### Copyright (c) 2023 Ominimindia
 
