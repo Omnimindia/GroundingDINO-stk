@@ -77,15 +77,16 @@ The following table provides a match list of `torch` and `CUDA` versions that ar
 This method involves using pip3 to install the package directly. Replace `<torch-version>` and `<cuda-version>` with the versions you wish to install. The `cuda-version` does not include a `dot`.
 
 ```bash
+# <groundingdino-stk-version> = 1.0.0
 # <torch-version> = 2.0
 # <cuda-version> = 117
 # Example:
-pip3 install groundingdino-stk==1.0.<torch-version>.<cuda-version> --extra-index-url https://download.pytorch.org/whl/cu<cuda-version>
+pip3 install groundingdino-stk==<groundingdino-stk-version>.<torch-version>.<cuda-version> --extra-index-url https://download.pytorch.org/whl/cu<cuda-version>
 ```
 
 #### Method 2 :mega:
 
-This method involves modifying and running the `install.sh` file. Replace the placeholder versions on lines 10 and 11 of the `install.sh` file with the versions of `torch` and `CUDA` that you want to install. Then, run the `install.sh` file.
+This method involves modifying and running the `install.sh` file. Replace the placeholder versions on lines 11 ~ 13 of the `install.sh` file with the versions of `groundingdino-stk`, `torch` and `CUDA` that you want to install. Then, run the `install.sh` file.
 
 ```bash
 bash install.sh
