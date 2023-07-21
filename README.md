@@ -1,7 +1,7 @@
 
 # GroundingDINO-stk
 
-Welcome to the GroundingDINO-stk project! This repository provides a source that can install the `GroundingDINO` library from `PyPI`. The `GroundingDINO` version was last updated on `2023/06/29`.
+Welcome to the GroundingDINO-stk project! :tada: :dizzy: This repository provides a source that can install the `GroundingDINO` library from `PyPI`. The `GroundingDINO` version was last updated on `2023/06/29`.
 
 This document contains all the information you need to get started, including:
 
@@ -15,7 +15,7 @@ The project requires CUDA version 10.2 or later. CUDA is a parallel computing pl
 
 ## Support List
 
-### Supported Versions
+### Supported Versions :eyes:
 
 The following table lists the versions of `torch`, `torchvision`, and `Python` that are compatible with this project, along with the respective versions of `CUDA` they support. Ensure your setup aligns with one of these combinations for smooth operation of the project.
 
@@ -32,7 +32,7 @@ The following table lists the versions of `torch`, `torchvision`, and `Python` t
 | `1.10`             | `0.11`             | `>=3.6`, `<=3.9`          |    .   |        |        |        |        |    O   |
 
 
-### Unsupported Versions
+### Unsupported Versions :eyes:
 
 The following table lists the versions of `torch`, `torchvision`, and `Python` that are not supported by this project. If your setup includes any of these versions, you might encounter issues while using the project.
 
@@ -51,11 +51,11 @@ The following table lists the versions of `torch`, `torchvision`, and `Python` t
 | `1.1`              | `0.3`              | `==2.7`, `>=3.5`, `<=3.7` |
 | `<=1.0`            | `0.2`              | `==2.7`, `>=3.5`, `<=3.7` |
 
-## Installation
+## Installation 
 
 Installation of this project requires careful matching of `torch` and `CUDA` versions. The versions you choose should align with the supported versions mentioned above.
 
-### Match list
+### Match list :dart:
 
 The following table provides a match list of `torch` and `CUDA` versions that are known to work together well:
 
@@ -72,7 +72,7 @@ The following table provides a match list of `torch` and `CUDA` versions that ar
 | `1.11`  | `10.2` |
 | `1.10`  | `10.2` |
 
-#### Method 1
+#### Method 1 :mega:
 
 This method involves using pip3 to install the package directly. Replace `<torch-version>` and `<cuda-version>` with the versions you wish to install. The `cuda-version` does not include a `dot`.
 
@@ -83,7 +83,7 @@ This method involves using pip3 to install the package directly. Replace `<torch
 pip3 install groundingdino-stk==1.0.<torch-version>.<cuda-version> --extra-index-url https://download.pytorch.org/whl/cu<cuda-version>
 ```
 
-#### Method 2
+#### Method 2 :mega:
 
 This method involves modifying and running the `install.sh` file. Replace the placeholder versions on lines 1 and 2 of the `install.sh` file with the versions of `torch` and `CUDA` that you want to install. Then, run the `install.sh` file.
 
@@ -91,13 +91,13 @@ This method involves modifying and running the `install.sh` file. Replace the pl
 bash install.sh
 ```
 
-## Authors/Contributors
+## Authors/Contributors :writing_hand: :pray::skin-tone-2:
 
 - [Samir Singh](https://github.com/Facadedevil)
 - [Timothius Victorio Yasin](https://github.com/)
 - [Yichen Kao](https://github.com/fireblue95)
 
-## Acknowledgements
+## Acknowledgements :raised_hands:
 
 This project is based on Grounding DINO, adding support for various CUDA, PyTorch, torch, and Python versions compatibility.
 
@@ -105,5 +105,5 @@ This project is based on Grounding DINO, adding support for various CUDA, PyTorc
 https://github.com/IDEA-Research/GroundingDINO
 ```
 
-## Feel free to contact us if you need further assistance navigating or using this project. We're here to help!
+## Feel free to contact us if you need further assistance navigating or using this project. We're here to help! :coffee:
 
