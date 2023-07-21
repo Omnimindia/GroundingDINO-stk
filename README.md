@@ -85,7 +85,7 @@ pip3 install groundingdino-stk==1.0.<torch-version>.<cuda-version> --extra-index
 
 #### Method 2 :mega:
 
-This method involves modifying and running the `install.sh` file. Replace the placeholder versions on lines 1 and 2 of the `install.sh` file with the versions of `torch` and `CUDA` that you want to install. Then, run the `install.sh` file.
+This method involves modifying and running the `install.sh` file. Replace the placeholder versions on lines 10 and 11 of the `install.sh` file with the versions of `torch` and `CUDA` that you want to install. Then, run the `install.sh` file.
 
 ```bash
 bash install.sh

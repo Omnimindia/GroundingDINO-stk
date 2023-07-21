@@ -7,7 +7,6 @@
 # Example:
 # pip3 install groundingdino-stk==1.0.<torch-version>.<cuda-version> --extra-index-url https://download.pytorch.org/whl/cu<cuda-version>
 
-
 export TORCH_VERSION=2.0
 export CUDA_VERSION=117
 
