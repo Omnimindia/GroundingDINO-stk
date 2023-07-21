@@ -91,13 +91,11 @@ This method involves modifying the `install.sh` file and running it. Replace the
 bash install.sh
 ```
 
-
-
 ## Authors/Contributors
 
-- Samir Singh
-- Timothius Victorio Yasin
-- Yichen-kao
+- [Samir Singh](https://github.com/Facadedevil)
+- [Timothius Victorio Yasin](https://github.com/)
+- [Yichen Kao](https://github.com/fireblue95)
 
 ## Acknowledgements
 
@@ -105,11 +103,7 @@ This project is based on Grounding DINO, adding the additional support for vario
 
 ```
 https://github.com/IDEA-Research/GroundingDINO
-
 ```
 
----
+## Feel free to reach out if you need any further assistance in navigating or using this project. We're here to help!
 
-Feel free to reach out if you need any further assistance in navigating or using this project. We're here to help!
-
-```
