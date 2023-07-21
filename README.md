@@ -91,7 +91,7 @@ This method involves modifying and running the `install.sh` file. Replace the pl
 bash install.sh
 ```
 
-## Authors/Contributors :writing_hand: :pray::skin-tone-2:
+## Authors/Contributors :writing_hand: :pray:
 
 - [Samir Singh](https://github.com/Facadedevil)
 - [Timothius Victorio](https://github.com/xard40)
